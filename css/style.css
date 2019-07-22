@@ -102,6 +102,10 @@ img {
 	color: #ffffff;
 }
 
+.site-header a:hover {
+	color: #ee21fd;
+}
+
 .site-header h1 {
 	text-align: center;
 	font-weight: 400;	
