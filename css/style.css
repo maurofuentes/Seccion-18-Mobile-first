@@ -53,6 +53,22 @@ img {
 	margin: 0;
 }
 
+/**grid**/
+@media (min-width: 768px) {
+	.grid {
+		display: flex;
+		justify-content: space-between
+	}
+	.columnas-4 {
+		flex: 0 0 calc(33.3% - 1rem);
+	}
+	.columna-6 {
+		flex: 0 0 calc(50% - 1rem);
+	}
+	.columnas-8 {
+		flex: 0 0 calc(66.6% - 1rem);
+	}	
+}
 /**botones**/
 .btn {
 	display: block;
@@ -204,6 +220,7 @@ img {
 }
 
 .cursos {
+	padding-top: 3rem;
 	padding-bottom: 3rem;
 	border-bottom: 1px solid #e1e1e1;
 }
@@ -218,7 +235,8 @@ img {
 	font-size: 2rem;
 }
 
-.cursos p span {
+.cursos p span,
+.cursos p.descripcion {
 	font-weight: 400;
 }
 
@@ -240,3 +258,6 @@ img {
 .site-footer p span {
 	font-weight: 700;
 }
+
+
+
